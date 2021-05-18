@@ -1,0 +1,20 @@
+---
+# Criação de registros DNS
+
+- name: Cria CNAME / Host A
+  win_dns_record:
+    name: "{{ name }}"
+    type: "{{ type }}"
+    value: "{{ value }}"
+    zone: "{{ zone }}"
+  when: acao == "Criar"
+
+- name: Remove CNAME / Host A
+  win_dns_record:
+    name: "{{ name }}"
+    type: "{{ type }}"
+    #run: "{{ run }}"
+    state: absent
+    zone: "{{ zone }}"
+  when: acao == "Remover"
+...

@@ -1,0 +1,9 @@
+---
+- name: Criação de registro DNS
+  hosts: microsoft-dns
+  roles:
+   - role: 'ansible/Cria_registro_dns_domain_windows/roles/windowsserver-dns' 
+  vars_files:
+    - ansible/Cria_registro_dns_domain_windows/roles/windowsserver-dns/vars/vault.yml
+    - ansible/Cria_registro_dns_domain_windows/roles/windowsserver-dns/vars/main.yml
+...
