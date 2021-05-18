@@ -1,0 +1,43 @@
+---
+- name: 'Instala pacotes de dependencia do sistema operacional'
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600 #1 hora
+    name:
+    - mysql-server
+    - python3-mysqldb
+    state: latest
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}"
+
+- name: 'Cria o banco no MySQL'
+  mysql_db:
+    name: 'wordpress_db'
+    state: present
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}"
+    
+- name: 'Cria usuario no MySQL'
+  mysql_user:
+    name: "{{ wp_user }}"
+    password: "{{ wp_pass }}"
+    priv: "{{ wp_db_name }}.*:ALL"
+    state: present
+    host: '{{ item }}'
+  with_items:
+    - '{{ wp_db_ip }}'
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}" 
+
+- name: 'Configura MySQL para aceitar conexões remotas'
+  copy:
+    src: 'files/my.cnf'
+    dest: '/etc/mysql/my.cnf'
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}"
+  notify:
+   - restart mysql

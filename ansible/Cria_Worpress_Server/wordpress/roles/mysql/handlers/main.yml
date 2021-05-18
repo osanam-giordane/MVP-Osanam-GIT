@@ -1,0 +1,8 @@
+---
+- name: restart mysql
+  service:
+    name: mysql
+    state: restarted
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}"

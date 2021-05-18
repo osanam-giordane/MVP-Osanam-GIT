@@ -1,0 +1,6 @@
+[wordpress]
+<IP_SERVER> ansible_user=<USER> ansible_ssh_private_key_file="<PATH_PRIVATE_KEY_COM_NOME_KEY>"
+
+[database]
+<IP_SERVER> ansible_user=<USER> ansible_ssh_private_key_file="<PATH_PRIVATE_KEY_COM_NOME_KEY>"
+

@@ -1,0 +1,3 @@
+---
+wp_ip: <IP_SERVER_WORDPRESS>
+wp_wordpress_folder: '/var/www/wordpress'

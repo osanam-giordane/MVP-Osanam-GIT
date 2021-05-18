@@ -1,0 +1,7 @@
+---
+pip_package: python3-pip
+wp_tar: /tmp/wordpress.tar.gz
+wp_db_name: wordpress_db
+wp_user: wordpress_user
+wp_pass: 12345
+become_pass: <SENHA_ROOT>

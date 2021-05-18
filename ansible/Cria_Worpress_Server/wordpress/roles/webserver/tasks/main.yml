@@ -1,0 +1,17 @@
+---
+- name: 'Instala pacotes de dependencia do sistema operacional'
+  apt:
+    update_cache: yes #atualizando o package list
+    cache_valid_time: 3600 #1 hora
+    name: 
+    - php7.2
+    - apache2
+    - libapache2-mod-php7.2
+    - php7.2-gd
+    - php-ssh2
+    - python3-mysqldb
+    - php7.2-mysql
+    state: latest
+  become: yes
+  vars:
+    ansible_become_pass: "{{ become_pass }}"
