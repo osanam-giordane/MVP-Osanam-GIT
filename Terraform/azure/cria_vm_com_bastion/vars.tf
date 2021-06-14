@@ -13,5 +13,5 @@ variable "client_secret" {
 }
 variable "tenant_id" {
   type = string
-  default = "seu_tenant_id"
+  default = "<seu_tenant_id>"
 }
