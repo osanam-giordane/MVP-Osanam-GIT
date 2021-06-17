@@ -7,6 +7,14 @@ Aqui disponibilizarei scripts Powershell, Bash, Terraform, Ansible e demais ling
 
 Sinta-se a vontade caso encontrem algum erro ou até mesmo melhorias, façam um [Pull Request](https://github.com/osanam-giordane/MVP-Osanam-GIT/pulls) ou abram uma [Issue](https://github.com/osanam-giordane/MVP-Osanam-GIT/issues) com a descrição do motivo que avaliarei e faremos a melhoria/correção caso seja necessário.
 
+Caso queiram entrar em contato ou ver demais conteúdos que disponibilizo, me sigam em uma das redes que estão no meu Linktree:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22400043/122412616-19b27a00-cf5c-11eb-88b4-d58d755902c0.png" /> </p>
+
+[<p align="center">Clique aqui para minhas Redes Sociais</p>](https://linktr.ee/osanam.giordane)
+
+<br>
 Obrigado e seguem os links rápidos de cada documentação e códigos.
 
 ## Azure CLI
