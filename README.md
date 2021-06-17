@@ -5,7 +5,7 @@ O intuito deste repositório remoto é disponibilizar scripts de IaC que utilizo
 
 Aqui disponibilizarei scripts Powershell, Bash, Terraform, Ansible e demais linguagens usadas em IaC para que ajude a comunidade técnica no seu dia a dia de tecnologia.
 
-Sinta-se a vontade caso encontrem algum erro ou até mesmo melhorias, façam um Pull Request ou abram uma Issue com a descrição do motivo que avaliarei e faremos a melhoria/correção caso seja necessário.
+Sinta-se a vontade caso encontrem algum erro ou até mesmo melhorias, façam um [Pull Request](https://github.com/osanam-giordane/MVP-Osanam-GIT/pulls) ou abram uma [Issue](https://github.com/osanam-giordane/MVP-Osanam-GIT/issues) com a descrição do motivo que avaliarei e faremos a melhoria/correção caso seja necessário.
 
 Obrigado e seguem os links rápidos de cada documentação e códigos.
 
