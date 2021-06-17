@@ -20,4 +20,4 @@ Para que possamos iniciar e parar múltiplas VM´s precisamos efetuar os seguint
 *    ACAO
     <BR>Insira opção de Iniciar VM´s (***start***) ou de Desligar VM´s (***stop***)
 
-![alt text](https://github.com/osanam-giordane/MVP-Osanam-GIT/blob/master/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/multiple_vms/images/campos.png?raw=true)
+![alt text](https://github.com/osanam-giordane/MVP-Osanam-GIT/blob/main/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/multiple_vms/images/campos.png)
