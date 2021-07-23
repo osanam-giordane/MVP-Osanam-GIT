@@ -18,17 +18,21 @@ Caso queiram entrar em contato ou ver demais conteúdos que disponibilizo, me si
 Obrigado e seguem os links rápidos de cada documentação e códigos.
 
 ## Azure CLI
+![Azure CLI](./images/azcli02.png)
 - [Trabalhando com Azure Container Instances e Azure Container Registry](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Azure_CLI/Containers)
   
  ## Powershell
+ ![Powershell](./images/azure_cli.png)
  -  [[Start-Stop] Runbook Azure Automaton - Múltiplas VM´s](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/multiple_vms)
  -  [[Start-Stop] Runbook Azure Automaton - VM única](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/single_vm)
  -  [Valida Secrets Azure Key Vault Vencendo](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Valida_Secrets_vencendo)
 
 ## Terraform
+![Terraform](./images/terraform.png)
 -  [Provisionamento Multicloud (AWS e AZURE)](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Terraform/IaC%20Multicloud)
 -  [IaC exemplo de implantação Azure utilizando Hashicorp Terraform (Incluso Bastion e File Share)](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Terraform/azure/cria_vm_com_bastion)
 
 ## Ansible
+![Ansible](./images/ansible.png)
 -  [Cria Worpress Server](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/ansible/Cria_Worpress_Server)
 -  [Cria Registro DNS Interno](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/ansible/Cria_registro_dns_domain_windows/roles/windowsserver-dns)
