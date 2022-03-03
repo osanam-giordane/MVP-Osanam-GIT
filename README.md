@@ -25,6 +25,7 @@ Obrigado e seguem os links rápidos de cada documentação e códigos.
  ![Powershell](./images/azure_cli.png)
  -  [[Start-Stop] Runbook Azure Automaton - Múltiplas VM´s](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/multiple_vms)
  -  [[Start-Stop] Runbook Azure Automaton - VM única](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Runbook_Automation/Start_Stop_VM/single_vm)
+  -  [[Start-Stop] Runbook Azure Automaton - AKS utilizando tags](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Runbook_Automation/AKS_Start_Stop)
  -  [Valida Secrets Azure Key Vault Vencendo](https://github.com/osanam-giordane/MVP-Osanam-GIT/tree/main/Powershell/AZURE/Valida_Secrets_vencendo)
 
 ## Terraform
